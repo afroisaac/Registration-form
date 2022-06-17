@@ -90,12 +90,12 @@ input{
         flex-direction: column;
     }
     .card{
-        padding: 20px 30px; 
+        padding: 20px 20px; 
     }
     .selling-point{
         padding: 15px 30px;
     }
     form{
-        padding: 20px;
+        padding: 10px;
     }
 }
