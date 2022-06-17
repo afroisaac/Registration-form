@@ -95,4 +95,7 @@ input{
     .selling-point{
         padding: 15px 30px;
     }
+    form{
+        padding: 20px;
+    }
 }
