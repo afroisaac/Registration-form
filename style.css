@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+main{
+        background: url("./images/bg-intro-desktop.png") no-repeat center;
+        background-color: hsl(0, 100%, 74%);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+}
+
+.card{
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.selling-point{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: center; 
+}
+
+.selling-point p{
+    color: #ffffff;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+}
+
+.terms{
+    color:hsl(246, 25%, 77%);
+}
+.terms strong{
+    color:hsl(0, 100%, 74%);
+}
+.button{
+    width: 100%;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    padding: 12px 40px;
+    border-radius: 6px;
+    border-color:hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+input{
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 540px){
+    main{
+        background: url("./images/bg-intro-mobile.png") no-repeat center;
+        background-color: hsl(0, 100%, 74%);
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
